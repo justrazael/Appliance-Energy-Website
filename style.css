@@ -74,13 +74,12 @@ body h1{
 } 
 
 body p{
-  margin-left: 2em;
+  margin-left: 3em;
 }
 
 footer {
   background-color: #4c8818;
-  text-align: center;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   width: 100%;
   height: 2em;
   margin-top: auto;
@@ -89,7 +88,6 @@ footer {
 footer span{
   color: white;
   font-weight: bold;
-  
 }
 
 .footer-content {

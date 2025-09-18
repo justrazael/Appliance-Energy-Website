@@ -12,20 +12,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const navItems = [
+    document.addEventListener('DOMContentLoaded', function() {//script triggers after the HTML file is loaded
+      const navItems = [        //arrays to insert the text and htmls.
         ['Home', 'index.html'],
         ['Television', 'Television.html'],
         ['About Us', 'About Us.html']
       ];
 
-    let navHtml = '<nav id="navbar"><ul>';
-      navItems.forEach(([text, href]) => {
-        navHtml += `<li><a href="${href}">${text}</a></li>`;
+    let navHtml = '<nav id="navbar"><ul>'; //starts the navigation HTML string (ul)
+      navItems.forEach(([text, href]) => { //;loop each menu text 
+        navHtml += `<li><a href="${href}">${text}</a></li>`; //Output text and href here 
       });
-    navHtml += '</ul></nav>';
+    navHtml += '</ul></nav>';//closes tags and ul
 
-    document.querySelector('.nav-container').insertAdjacentHTML('beforeend', navHtml);
+    document.querySelector('.nav-container').insertAdjacentHTML('beforeend', navHtml); //Insert the completed navigation into .nav-container, after the logo
   });
 </script>
 <header>    
@@ -33,12 +33,12 @@
         <a href="index.html">
           <img src="images/logo2.png" alt="Logo" class="logo">
         </a>
-        <div id="navbar"></div>
     </div>    
 </header>
 <body>
     <h1>Home Page</h1>
-    <p>Welcome to the Home page of the website.</p> 
+    <p>The Australian Energy Statistics is the official and primary source of energy data in Australia.Updated each year, it provides historical information on energy production, <br>consumption, and trade,
+       and also underpins Australia’s international reporting requirements</p> 
 </body>
 <footer>
     <div class="footer-content">
