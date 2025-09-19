@@ -11,23 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const navItems = [
-        ['Home', 'index.html'],
-        ['Television', 'Television.html'],
-        ['About Us', 'About Us.html']
-      ];
-
-    let navHtml = '<nav id="navbar"><ul>';
-      navItems.forEach(([text, href]) => {
-        navHtml += `<li><a href="${href}">${text}</a></li>`;
-      });
-    navHtml += '</ul></nav>';
-
-    document.querySelector('.nav-container').insertAdjacentHTML('beforeend', navHtml);
-  });
-</script>
+<script src="navbar.js"></script>
 <header>    
     <div class="nav-container">
         <a href="index.html">
