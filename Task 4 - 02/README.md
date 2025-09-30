@@ -17,3 +17,6 @@ d3.select("svg")
 
 T04 - 3 Done
 Added responsive SVG and test rect
+
+TO4 - 4 Done
+Loaded CSV, row conversion string to number
