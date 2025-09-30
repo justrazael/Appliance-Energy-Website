@@ -20,3 +20,6 @@ Added responsive SVG and test rect
 
 TO4 - 4 Done
 Loaded CSV, row conversion string to number
+
+T05 - 5 Done
+Build Bar chart, spacing with each bar
