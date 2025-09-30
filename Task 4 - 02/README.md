@@ -15,3 +15,5 @@ d3.select("svg")
 .attr("height", 30)
 .style("fill", "green");
 
+T04 - 3 Done
+Added responsive SVG and test rect
