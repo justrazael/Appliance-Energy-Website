@@ -139,3 +139,9 @@ footer span{
   margin-left: 1em;
 }
 
+/*Task 4 - 03*/
+.responsive-svg-container {
+  margin: 0 auto; /* center */
+  width: 100%; /* fill parent width */
+  max-width: 1200px; /* cap max width */
+}
