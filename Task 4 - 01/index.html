@@ -100,7 +100,7 @@
         }
 
         /* Chimney smoke */
-        #scene-adjusted ellipse.smoke {
+    ellipse.smoke {
             fill: lightgray;
             opacity: 0.6;
         }
@@ -377,11 +377,21 @@
             <use href="#window" transform="translate(325, 230)" />
             <use href="#window" transform="translate(435, 230)" />
 
-            <!-- Fence (polyline) -->
-            <polyline points="50,400 70,380 90,400 110,380 130,400 150,380 170,400 190,380 210,400 230,380 250,400" fill="none" stroke="saddlebrown" stroke-width="5" />
+           <!-- Fence (dashed stroke) -->
+            <polyline points="50,400 70,380 90,400 110,380 130,400 150,380 170,400 190,380 210,400 230,380 250,400" fill="none" stroke="saddlebrown" stroke-width="3" stroke-dasharray="10,5" />
 
             <!-- Curved path -->
-            <path d="M 600 350 C 550 400, 450 400, 400 350" fill="none" stroke="black" stroke-width="5" />
+            <path d="M 300 450 C 550 400, 450 400, 400 350" fill="none" stroke="black" stroke-width="5" />
+
+            <!-- Cobblestones -->
+            <circle cx="300" cy="450" r="10" fill="gray" /> <!-- First cobblestone -->
+            <circle cx="400" cy="430" r="10" fill="gray" /> <!-- Second cobblestone -->
+            <circle cx="470" cy="400" r="10" fill="gray" /> <!-- third cobblestone -->
+
+            <!-- Chimney smoke -->
+            <ellipse class="smoke" cx="460" cy="95" rx="15" ry="20" />
+            <ellipse class="smoke" cx="475" cy="85" rx="10" ry="15" />
+            <ellipse class="smoke" cx="490" cy="75" rx="5" ry="10" />
 
             <!-- Caption -->
             <text x="400" y="490" font-family="Arial" font-size="20" fill="black" text-anchor="middle">A Simple House and Garden (Grouped Windows)</text>
