@@ -26,3 +26,6 @@ Build Bar chart, spacing with each bar
 
 T04 - 6 Done
 Scale Bar CHart
+
+T04 - 7 Done
+Added Category and Value Labels
