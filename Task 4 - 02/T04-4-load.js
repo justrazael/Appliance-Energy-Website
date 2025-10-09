@@ -14,7 +14,7 @@ return {
     }
 */
 /* Load CSV, Convert Type, Quick Check */
-d3.csv("dTask 4 - 02/data/tvBrandCount.csv", d => ({
+d3.csv("Task 4 - 02/data/tvBrandCount.csv", d => ({
     brand: d.brand,
     count: +d.count
 })).then(data => {
