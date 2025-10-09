@@ -1,5 +1,5 @@
 
-d3.csv("Task 4 - 02/data/tvBrandCount.csv", d => {
+d3.csv("data/tvBrandCount.csv", d => {
 return {
     brand: d.brand,
     count: +d.count // '+' converts string to number
@@ -14,7 +14,7 @@ return {
     }
 */
 /* Load CSV, Convert Type, Quick Check */
-d3.csv("Task 4 - 02/data/tvBrandCount.csv", d => ({
+d3.csv("data/tvBrandCount.csv", d => ({
     brand: d.brand,
     count: +d.count
 })).then(data => {
